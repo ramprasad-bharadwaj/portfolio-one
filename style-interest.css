@@ -1,0 +1,152 @@
+/*-----------------------------------Index-(Home-Page)-----------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Island+Moments&display=swap");
+
+:root {
+  font-family: "Caveat", cursive;
+  --heading: "Island Moments", cursive;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #deb887;
+}
+.index-head,
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(202, 164, 119);
+  margin: 0;
+  padding: 0;
+}
+.index-head {
+  height: 110px;
+  padding: 2em;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.index-head li a {
+  text-decoration: none;
+  padding: 0 3vw;
+  color: #2f4858;
+  font-size: 150%;
+}
+.index-head li a:hover {
+  text-decoration: underline;
+  font-size: 175%;
+}
+/* header li a::after {
+  content: "";
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  height: 1.5px;
+  background-color: #32626b;
+  transition: all 0.5s;
+}
+header li a:hover::after {
+  width: 100%;
+} */
+.index-head h1 {
+  font-size: 200%;
+  color: #32626b;
+  cursor: pointer;
+}
+
+/*-------------------------------------Intrests------------------------------------------*/
+
+
+.interest-container {
+  background-color: #deb887;
+  margin: 3vw;
+  padding: 2vw;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 175px);
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+.my-interesets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech,
+.music,
+.tabla,
+.guitar,
+.photo,
+.vgames {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 650) {
+  .tech,
+  .music,
+  .tabla,
+  .guitar,
+  .photo,
+  .vgames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .interest-container {
+    background-color: #deb887;
+    margin: 3vw;
+    padding: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 175px);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: inline-block;
+}
+.left,
+.right {
+  max-width: 50%;
+  padding: 2em;
+}
+img {
+  max-width: 90%;
+}
+.mi {
+  font-size: 3em;
+}
+.left > h2,
+.right > h2 {
+  font-size: 2.5em;
+}
+.left > h4,
+.right > h4 {
+  font-size: 1.5em;
+}

@@ -1,0 +1,114 @@
+/*-----------------------------------Index-(Home-Page)-----------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Island+Moments&display=swap");
+
+:root {
+  font-family: "Caveat", cursive;
+  --heading: "Island Moments", cursive;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dca65f;
+}
+.index-head,
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(202, 164, 119);
+  margin: 0;
+  padding: 0;
+}
+.index-head {
+  height: 110px;
+  padding: 2em;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.index-head li a {
+  text-decoration: none;
+  padding: 0 3vw;
+  color: #2f4858;
+  font-size: 150%;
+}
+.index-head li a:hover {
+  text-decoration: underline;
+  font-size: 175%;
+}
+/* header li a::after {
+  content: "";
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  height: 1.5px;
+  background-color: #32626b;
+  transition: all 0.5s;
+}
+header li a:hover::after {
+  width: 100%;
+} */
+.index-head h1 {
+  font-size: 200%;
+  color: #32626b;
+  cursor: pointer;
+}
+
+/*-------------------------------------Contact------------------------------------------*/
+.container {
+  background-color: #deb887;
+  margin: 3vw;
+  padding: 2vw;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 175px);
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: inline-block;
+}
+table {
+  padding: 1em;
+  margin: 1em;
+}
+th,
+td {
+  padding: 0.75em;
+  margin: 0.75em;
+  font-size: 1.5em;
+  font-family: cursive;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  table {
+    padding: 1em;
+    margin: 1em;
+  }
+  th,
+  td {
+    padding: 0.75em;
+    margin: 0.75em;
+    font-size: 1em;
+    font-family: cursive;
+    text-align: center;
+  }
+}

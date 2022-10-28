@@ -1,0 +1,117 @@
+/*-----------------------------------Index-(Home-Page)-----------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Island+Moments&display=swap");
+
+:root {
+  font-family: "Caveat", cursive;
+  --heading: "Island Moments", cursive;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #deb887;
+}
+.index-head,
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(202, 164, 119);
+  margin: 0;
+  padding: 0;
+}
+.index-head {
+  height: 110px;
+  padding: 2em;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0px;
+}
+
+.index-head li a {
+  text-decoration: none;
+  padding: 0 3vw;
+  color: #2f4858;
+  font-size: 150%;
+}
+.index-head li a:hover {
+  text-decoration: underline;
+  font-size: 175%;
+}
+/* header li a::after {
+  content: "";
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  height: 1.5px;
+  background-color: #32626b;
+  transition: all 0.5s;
+}
+header li a:hover::after {
+  width: 100%;
+} */
+.index-head h1 {
+  font-size: 200%;
+  color: #32626b;
+  cursor: pointer;
+}
+.split {
+  display: flex;
+  height: calc(100vh - 100px);
+  background-color: #deb887;
+  color: #2f4858;
+}
+
+.split {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+.split .left {
+  font-family: cursive, serif;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.right {
+  justify-content: center;
+  overflow: hidden;
+}
+.right img {
+  /* height: calc(100vh - 100px); */
+  width: 100%;
+  object-fit: cover;
+}
+.left h2 {
+  font-size: 2.8rem;
+  margin-top: -0.5rem;
+}
+.left h3 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+.left h4 {
+  font-size: 1.2rem;
+  margin-top: -0.5rem;
+}
+.left h5 {
+  font-size: 1rem;
+  margin-top: -1rem;
+  margin-left: 0.2rem;
+}
+
+/*-------------------------------------Intrests------------------------------------------*/
+
+/*-------------------------------------About------------------------------------------*/
+
+/*-------------------------------------Contact------------------------------------------*/
